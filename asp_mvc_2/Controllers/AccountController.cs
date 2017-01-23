@@ -9,6 +9,7 @@ namespace Asp_mvc_2.Controllers
         public ActionResult SignUp()
         {
             return View();
+
         }
         [HttpPost]
         public ActionResult SignUp(UserSignUpView USV)
